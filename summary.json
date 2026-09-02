@@ -1,0 +1,33 @@
+{
+  "calibration": {
+    "air_rmse_c": 0.029965617941429653,
+    "wall_rmse_c": 0.03356400906078318,
+    "evaluations": 10,
+    "fitted_air_wall_resistance_k_kw": 2.990320570028501,
+    "fitted_wall_ambient_resistance_k_kw": 65.19534915403995,
+    "fitted_solar_gain_kw_per_w_m2": 5.1622320258151936e-05
+  },
+  "thermostat": {
+    "backup_energy_wh": 2294.5244222642505,
+    "cooling_energy_wh": 6569.999999999998,
+    "temperature_violation_minutes": 0.0,
+    "minimum_temperature_c": 3.4291665438111325,
+    "maximum_temperature_c": 5.105482734914882,
+    "compressor_action_changes": 5.0,
+    "ending_battery_percent": 0.0
+  },
+  "mpc": {
+    "backup_energy_wh": 391.13737170351004,
+    "cooling_energy_wh": 4680.0,
+    "temperature_violation_minutes": 0.0,
+    "minimum_temperature_c": 4.484591232408601,
+    "maximum_temperature_c": 7.57651529027386,
+    "compressor_action_changes": 9.0,
+    "ending_battery_percent": 0.0
+  },
+  "fault_detection": {
+    "first_alarm_hour": 14.0,
+    "alarm_intervals": 4
+  },
+  "benchmark_scope": "synthetic simulation; not a hardware result"
+}
